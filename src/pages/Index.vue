@@ -3,7 +3,7 @@
       <router-view></router-view>
       <mt-tabbar v-model="tabSelected" class="tab">
         <mt-tab-item id="外卖" class="tab-item">
-          <router-link to="/index/home" active-class="on"><span>首页</span></router-link>
+          <router-link to="/index/home" active-class="on" ><span>首页</span></router-link>
         </mt-tab-item>
         <mt-tab-item id="订单" class="tab-item">
           <router-link to="/index/category"><span>分类</span></router-link>
