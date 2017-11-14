@@ -10,7 +10,10 @@ export default {
 }
 </script>
 
-<style scoped lang="stylus" rel="stylesheet/stylus">
-
-
+<style  lang="stylus" rel="stylesheet/stylus">
+  @import './common/stylus/reset.styl';
+  body,html
+    width 100%
+    height 100%
+    overflow hidden
 </style>
